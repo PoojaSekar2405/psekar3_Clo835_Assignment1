@@ -32,7 +32,7 @@ jobs:
         ECR_REPOSITORY: clo835-assignment1-psekar3
         IMAGE_TAG: v0.1
       run: |
-        cd 
+        cd psekar3_Clo835_Assignment1
         ls -ltra
         # Docker build command
         docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
